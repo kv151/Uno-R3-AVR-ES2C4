@@ -6,6 +6,7 @@
 #define BUTTON_PIN 2
 //Define global definitions here:
 volatile int LED_state = LOW; //default led state
+int interruptCounter = 0;
 
 //put function declarations here:
 
